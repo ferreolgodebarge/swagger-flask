@@ -4,13 +4,13 @@ This application is a simulation of a Virtual Server cloud provider.
 
 With this application running, you can :
 
-| Verb   | Endpoint          | Description           |
-|--------|-------------------|-----------------------|
-| GET    | /servers          | List all servers      |
-| POST   | /servers          | Create a new server   |
-| GET    | /servers/<int:id> | Get a server          |
-| PUT    | /servers/<int:id> | Update server details |
-| DELETE | /servers/<int:id> | Delete a server       |
+| Verb   | Endpoint            | Description           |
+|--------|---------------------|-----------------------|
+| GET    | `/servers`          | List all servers      |
+| POST   | `/servers`          | Create a new server   |
+| GET    | `/servers/<int:id>` | Get a server          |
+| PUT    | `/servers/<int:id>` | Update server details |
+| DELETE | `/servers/<int:id>` | Delete a server       |
 
 In order to run the application, you'll need python3 :
 
